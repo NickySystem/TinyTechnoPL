@@ -13,11 +13,11 @@ start *1/0* (start or stop metronome)
 bpm *num* (change bpm)  
 
 ## Kick Drum  
-Kick play *num* (step of sequence to play)  
+kick play *num* (step of sequence to play)  
 kick mod *num* (length of sequence)  
 kick hp *num* (high pass filter in Hz)  
-Kick vol *num* (volume 0 -1)  
-Kick sample *filepath* (not yet implemented)  
+kick vol *num* (volume 0 -1)  
+kick sample *filepath* (not yet implemented)  
 
 ## Snare Drum  
 snare play *num* (step of sequence to play)  
@@ -36,7 +36,7 @@ hhc offset *0-8* (offset pattern)
 
 ## Open Hat  
 hho play *num* (step of sequence to play)  
-hco mod *num* (length of sequence)  
+hho mod *num* (length of sequence)  
 hho hp *num* (high pass filter in Hz)  
 hho vol *num* (volume 0-1)  
 hho sample *filepath* (not yet implemented)  
