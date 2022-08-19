@@ -20,11 +20,11 @@ Kick vol *num* (volume 0 -1)
 Kick sample *filepath* (not yet implemented)  
 
 ## Snare Drum  
-Kick play *num* (step of sequence to play)  
-kick mod *num* (length of sequence)  
-kick lp *num* (low pass filter in Hz)  
-Kick vol *num* (volume 0 -1)  
-Kick sample *filepath* (not yet implemented)  
+snare play *num* (step of sequence to play)  
+snare mod *num* (length of sequence)  
+snare lp *num* (low pass filter in Hz)  
+snare vol *num* (volume 0 -1)  
+snare sample *filepath* (not yet implemented)  
 
 ## Closed Hat  
 hhc all (play all 16ths)  
