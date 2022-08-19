@@ -33,6 +33,7 @@ hhc vol *num* (volume 0 -1)
 hhc del *0 - 5000* (delay by Ms)  
 hhc binary *0 0 1 0 0 0 1 0* (binary pattern 8 steps)  
 hhc offset *0-8* (offset pattern)  
+hhc mod *0-8* (length of sequence)  
 
 ## Open Hat  
 hho play *num* (step of sequence to play)  
