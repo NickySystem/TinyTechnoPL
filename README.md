@@ -1,5 +1,5 @@
 # Tiny Techno Pseudo Language  
-Open main.pd in Pure Data (www.puredata.info)
+Open main.pd in Pure Data (www.puredata.info)  
 In a terminal, navigate to your pd directory.  
 
 Into the /bin folder  
