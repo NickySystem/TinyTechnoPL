@@ -6,13 +6,11 @@ run the following:
 
 Then you can control the audio engine with the following commands...
 
-##Global
+## Global
 start *1/0*
+bpm *num*
 
-##bpm *num*
-Change the bpm
-
-##Kick Drum
+## Kick Drum
 Kick play *num*
 kick mod *num*
 kick on *1/0*
@@ -20,21 +18,21 @@ kick hp *num*
 Kick vol *num*
 Kick sample *filepath*
 
-##Snare Drum
+## Snare Drum
 Kick play *num* (step to play kick)
 kick mod *num* (number of steps in a sequence)
 kick lp *num* (low pass filter in Hz)
 Kick vol *num* (amplitude - 1 is at level of sample)
 Kick sample "filepath*
 
-##Closed Hat
+## Closed Hat
 hhc all
 hhc none
 hhc vol *num*
 hhc del *0 - 5000*
 hhc binary *0 0 1 0 0 0 1 0*
 
-##Open Hat
+## Open Hat
 hho play *num*
 hco mod *num*
 hho hp *num*
