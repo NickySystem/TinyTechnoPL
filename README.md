@@ -52,7 +52,7 @@ clap bit *0-16* (bit crush 1-16bits)
 clap vol (volum 0-1)
 clap sample *filepath* (load a sample, omit the .wav extension)  
 
-**note:** *loading samples*  
+**Note:** *loading custom samples*  
 When laoding a sample you do not include the filename extension.  
-the .wav extension ill automatically be added.  
-E.g. *clap sample user/newclap* will load user/newclap.wav
+* The .wav extension ill automatically be added.  
+* E.g. *clap sample user/newclap* will load user/newclap.wav
