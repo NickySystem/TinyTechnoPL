@@ -41,7 +41,6 @@ hho play *num* (step of sequence to play)
 hho mod *num* (length of sequence)  
 hho hp *num* (high pass filter in Hz)  
 hho vol *num* (volume 0-1)  
-hho sample *filepath* (not yet implemented)  
 hho sample *filepath* (load a sample, omit the .wav extension)  
 
 ## Euclidean Clap  
