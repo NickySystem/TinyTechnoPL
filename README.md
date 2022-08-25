@@ -54,5 +54,5 @@ clap sample *filepath* (load a sample, omit the .wav extension)
 
 **Note:** *loading custom samples*  
 When laoding a sample you do not include the filename extension.  
-* The .wav extension ill automatically be added.  
+* The .wav extension will automatically be added.  
 * E.g. *clap sample user/newclap* will load user/newclap.wav
