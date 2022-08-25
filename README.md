@@ -54,17 +54,17 @@ clap sample *filepath* (load a sample, omit the .wav extension)
   
 ## Bass Synth
 bass notes *0 0 3 4 12 7 3 4* (Sequence of 8 notes in chromatic scale)  
-bass pitch *num* (pitch with 0 as index)
+bass pitch *num* (pitch with 0 as index)  
 bass attack *num* (attack of AD envelope)  
 bass decay *num* (decay of AD envelope)  
-bass pow (logarithm on envelop decay ramp)
+bass pow (logarithm on envelop decay ramp)  
 bass patt *0-255 0-255* (decimal number converted to 8 bit binary gate pattern)  
 bass pattmod *0-16* (length of gated pattern for envelop trigger)  
 bass notesmod *0-8* (length of note sequence)  
-bass lp *num* (low pass filter in Hz)
-bass hp *num* (high pass filter in Hz)
-bass vol (volume 0-1)
-
+bass lp *num* (low pass filter in Hz)  
+bass hp *num* (high pass filter in Hz)  
+bass vol (volume 0-1)  
+  
 **Note:** *loading custom samples*  
 When laoding a sample you do not include the filename extension.  
 * The .wav extension will automatically be added.  
