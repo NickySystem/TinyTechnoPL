@@ -51,9 +51,9 @@ clap bit *0-16* (bit crush 1-16bits)
 clap vol (volume 0-1)
 clap sample *filepath* (load a sample, omit the .wav extension)  
   
-## Bass Synth
-bass riff *0 0 3 4 12 7 3 4* (Sequence of 8 notes in chromatic scale)  
-bass riffmod *0-8* (length of note sequence) 
+## Bass
+bass riff *0 0 3 4 12 7 3 4* (sequence of 8 notes in chromatic scale)  
+bass riffmod *0-8* (length of sequence) 
   
 bass pattern *0-255 0-255* (decimal number converted to 8 bit binary gate pattern)  
 bass patternmod *0-16* (length of pattern for gate pattern)  
