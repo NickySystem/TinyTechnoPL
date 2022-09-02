@@ -45,23 +45,24 @@ hho sample *filepath* (load a sample, omit the .wav extension)
 
 ## Euclidean Clap  
 clap mod *0-16* (length of sequence)  
-clap steps *0 to above mod* (number of steps to fill)  
+clap euc *0 to above mod* (number of steps to occupy)  
 clap offset *0 to above mod* (offset pattern)  
 clap bit *0-16* (bit crush 1-16bits)  
 clap vol (volume 0-1)
 clap sample *filepath* (load a sample, omit the .wav extension)  
   
 ## Bass Synth
-bass notes *0 0 3 4 12 7 3 4* (Sequence of 8 notes in chromatic scale)  
-bass pitch *num* (pitch with 0 as index)  
+bass riff *0 0 3 4 12 7 3 4* (Sequence of 8 notes in chromatic scale)  
+bass riffmod *0-8* (length of note sequence) 
+  
+bass pattern *0-255 0-255* (decimal number converted to 8 bit binary gate pattern)  
+bass patternmod *0-16* (length of pattern for gate pattern)  
+  
 bass attack *num* (attack of AD envelope)  
 bass decay *num* (decay of AD envelope)  
-bass pow (logarithm on envelop decay ramp)  
-bass patt *0-255 0-255* (decimal number converted to 8 bit binary gate pattern)  
-bass pattmod *0-16* (length of pattern for envelop trigger)  
-bass notesmod *0-8* (length of note sequence)  
-bass lp *num* (low pass filter in Hz)  
-bass hp *num* (high pass filter in Hz)  
+bass pow (logarithm on envelope decay ramp)  
+  
+bass pitch *num* (pitch with 0 as index)    
 bass vol (volume 0-1)  
   
 **Note:** *loading custom samples*  
