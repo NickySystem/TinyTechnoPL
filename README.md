@@ -36,12 +36,12 @@ hhc offset *0-8* (offset pattern)
 hhc mod *0-8* (length of sequence)  
 hhc sample *filepath* (load a sample, omit the .wav extension)  
 
-## Open Hat  
-hho play *num* (step of sequence to play)  
-hho mod *num* (length of sequence)  
-hho hp *num* (high pass filter in Hz)  
-hho vol *num* (volume 0-1)  
-hho sample *filepath* (load a sample, omit the .wav extension)  
+## Cymbal  
+cym play *num* (step of sequence to play)  
+cym mod *num* (length of sequence)  
+cym hp *num* (high pass filter in Hz)  
+cym vol *num* (volume 0-1)  
+cym sample *filepath* (load a sample, omit the .wav extension)  
 
 ## Euclidean Clap  
 clap mod *0-16* (length of sequence)  
