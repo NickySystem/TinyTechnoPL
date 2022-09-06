@@ -65,9 +65,8 @@ bass pow (logarithm on envelope decay ramp)
 bass pitch *num* (pitch with 0 as index)    
 bass vol (volume 0-1)  
   
-bass wave sqr (square osc)  
-bass wave sin (sin osc)  
-bass wave saw (saw osc)
+bass wave *sqr/sin/saw* (choose oscillator)  
+
   
     
 **Note:** *loading custom samples*  
