@@ -65,6 +65,11 @@ bass pow (logarithm on envelope decay ramp)
 bass pitch *num* (pitch with 0 as index)    
 bass vol (volume 0-1)  
   
+bass wave sqr (square osc)  
+bass wave sin (sin osc)  
+bass wave saw (saw osc)
+  
+    
 **Note:** *loading custom samples*  
 When laoding a sample you do not include the filename extension.  
 * The .wav extension will automatically be added.  
