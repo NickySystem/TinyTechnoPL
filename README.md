@@ -9,7 +9,7 @@ Into the /bin folder
 
 run the following: **pdsend 6000 localhost udp**  
 
-Then you can control the audio engine with the following commands...  
+**Then you can control the audio engine with the following commands...**  
 
 ## Global  
 start *1/0* (start or stop metronome)  
