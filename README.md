@@ -102,3 +102,4 @@ synth detune *num* (pitch of second oscilator, defaults at 0.99)
 When laoding a sample you do not include the filename extension.  
 * The .wav extension will automatically be added.  
 * E.g. *clap sample user/newclap* will load user/newclap.wav
+* All samples revert to mono, if a stereo sample is loaded, it will play the left channel.
