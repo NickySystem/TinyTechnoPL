@@ -71,7 +71,7 @@ bass wave *sqr/sin/saw* (choose oscillator)
 ## Synthesiser
 synth type *fm/loop/dualosc* (choose synth voice)  
   
-####fm Synth
+#### fm Synth
 synth vol *num* (volume 0 -1)  
 synth lp *0-20000* (low pass filter)  
 
