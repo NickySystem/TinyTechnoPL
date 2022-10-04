@@ -77,6 +77,8 @@ synth attack *num* (attack of AD envelope)
 synth decay *num* (decay of AD envelope)  
 synth pow *num* (logarithm on envelope decay ramp) 
   
+synth riffmod *0-8* (length of riff pattern)
+  
 #### FM Synth
 synth fmratio *num* (FM harmonicity ratio)  
 synth fmindex *num* (FM modulation index)
@@ -86,7 +88,14 @@ synth sample *filepath* (load a sample, omit the .wav extension)
   
 #### Dualosc Synth
 synth detune *num* (pitch of second oscilator, defaults at 0.99)
-  
+
+#### Logic System
+synth bin1 *0 0 1 0 1 1 0 1* (binary pattern 1 for logic gates)  
+synth bin2 *0 0 1 0 1 1 0 1* (binary pattern 2 for logic gates)  
+synth logic & (compare bin1 & bin2 using &)  
+synth logic | (compare bin1 & bin2 using |)  
+synth logic < (compare bin1 & bin2 using <)  
+synth logic > (compare bin1 & bin2 using >)  
   
   
 **Note:** *loading custom samples*  
