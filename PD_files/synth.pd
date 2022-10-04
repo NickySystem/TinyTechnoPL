@@ -118,8 +118,8 @@
 #X obj 131 119 phasor~;
 #X obj 194 119 phasor~;
 #X obj 123 14 inlet;
-#X obj 131 143 *~ 0.3;
-#X obj 194 143 *~ 0.3;
+#X obj 131 143 *~ 0.2;
+#X obj 194 143 *~ 0.2;
 #X obj 162 187 +~;
 #X obj 162 211 outlet~;
 #X obj 267 26 inlet;
