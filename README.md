@@ -1,4 +1,7 @@
-# Tiny Techno Pseudo Language  
+# Tiny Techno Pseudo Language 
+Tiny Techno Pseudo language is a live coding tool for minimal techno. It is lightweight, Pure Data based and minimal in size and scope.  
+
+## Installation 
 Open main.pd in Pure Data (www.puredata.info)  
 In a terminal, navigate to your pd directory.  
 
