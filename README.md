@@ -70,9 +70,15 @@ bass wave *sqr/sin/saw* (choose oscillator)
   
 ## Synthesiser
 synth type *fm/loop/dualosc* (choose synth voice)  
+synth vol *num* (volume 0 -1)  
+synth lp *0-20000* (low pass filter)  
+
+synth attack *num* (attack of AD envelope)  
+synth decay *num* (decay of AD envelope)  
+synth pow *num* (logarithm on envelope decay ramp) 
   
 #### FM Synth
-synth fmratio *num* (FM harmonicity ratio)
+synth fmratio *num* (FM harmonicity ratio)  
 synth fmindex *num* (FM modulation index)
   
 #### Loop Synth
@@ -81,15 +87,8 @@ synth sample *filepath* (load a sample, omit the .wav extension)
 #### Dualosc Synth
 synth detune *num* (pitch of second oscilator, defaults at 0.99)
   
-synth vol *num* (volume 0 -1)  
-synth lp *0-20000* (low pass filter)  
-
-synth attack *num* (attack of AD envelope)  
-synth decay *num* (decay of AD envelope)  
-synth pow *num* (logarithm on envelope decay ramp)  
-
-
-    
+  
+  
 **Note:** *loading custom samples*  
 When laoding a sample you do not include the filename extension.  
 * The .wav extension will automatically be added.  
