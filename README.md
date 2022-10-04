@@ -71,7 +71,16 @@ bass wave *sqr/sin/saw* (choose oscillator)
 ## Synthesiser
 synth type *fm/loop/dualosc* (choose synth voice)  
   
-#### fm Synth
+#### FM Synth
+synth fmratio *num* (FM harmonicity ratio)
+synth fmindex *num* (FM modulation index)
+  
+#### Loop Synth
+synth sample *filepath* (load a sample, omit the .wav extension)  
+  
+#### Dualosc Synth
+synth detune *num* (pitch of second oscilator, defaults at 0.99)
+  
 synth vol *num* (volume 0 -1)  
 synth lp *0-20000* (low pass filter)  
 
