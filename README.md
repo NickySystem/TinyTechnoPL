@@ -49,7 +49,7 @@ clap mod *0-16* (length of sequence)
 clap euc *0 to above mod* (number of steps to occupy)  
 clap offset *0 to above mod* (offset pattern)  
 clap bit *0-16* (bit crush 1-16bits)  
-clap vol (volume 0-1)
+clap vol *num* (volume 0-1)
 clap sample *filepath* (load a sample, omit the .wav extension)  
   
 ## Bass
@@ -61,14 +61,25 @@ bass patternmod *0-16* (length of pattern for gate pattern)
   
 bass attack *num* (attack of AD envelope)  
 bass decay *num* (decay of AD envelope)  
-bass pow (logarithm on envelope decay ramp)  
+bass pow *num* (logarithm on envelope decay ramp)  
   
 bass pitch *num* (pitch with 0 as index)    
-bass vol (volume 0-1)  
+bass vol *num* (volume 0-1)  
   
 bass wave *sqr/sin/saw* (choose oscillator)  
-
   
+## Synthesiser
+synth type *fm/loop/dualosc* (choose synth voice)  
+  
+####fm Synth
+synth vol *num* (volume 0 -1)  
+synth lp *0-20000* (low pass filter)  
+
+synth attack *num* (attack of AD envelope)  
+synth decay *num* (decay of AD envelope)  
+synth pow *num* (logarithm on envelope decay ramp)  
+
+
     
 **Note:** *loading custom samples*  
 When laoding a sample you do not include the filename extension.  
