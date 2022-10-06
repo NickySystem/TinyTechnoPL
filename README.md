@@ -106,7 +106,7 @@ When laoding a sample you do not include the filename extension.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Please keep in mind this is amy first project.
+Please keep in mind the scope of the project is intended to be tiny.
 
 
 ## License
