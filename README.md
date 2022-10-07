@@ -61,6 +61,7 @@ bass riffmod *0-8* (length of sequence)
   
 bass pattern *0-255 0-255* (decimal number converted to 8 bit binary gate pattern)  
 bass patternmod *0-16* (length of pattern for gate pattern)  
+bass space *num* (spacing between moving to the next note in the riff)
   
 bass attack *num* (attack of AD envelope)  
 bass decay *num* (decay of AD envelope)  
