@@ -108,6 +108,14 @@ sampler rev (toggle sample reverse - WIP)
 sampler start *0-100* (starting point of playback, 0 is start of wave file)
 sampler vol *num* (volume 0 -1)  
 
+## Mix
+mix lp *num* (low pass filter in Hz)  
+mix hp *num* (high pass filter in Hz)  
+mix rev *0-100* (reverb level)  
+mix glitch vol *0-1* (glitch effect volume)  
+mix glitch trig (how often to re-trigger glitch loop length)  
+mix glitch rec (how often to record a glitch sample)  
+
   
 **Note:** *loading custom samples*  
 The sampler laods into an array, this can cause a slight pause when loading large samples.  
