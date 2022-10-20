@@ -100,12 +100,23 @@ synth sample *filepath* (load a sample, omit the .wav extension)
 synth detune *num* (pitch of second oscilator, defaults at 0.99)  
   
   
+# Sampler
+sampler sample *filepath* (load a sample, omit the .wav extension)  
+sampler play *num* (step of sequence to play)  
+sampler mod *num* (length of sequence)  
+sampler rev (toggle sample reverse - WIP)
+sampler start *0-100* (starting point of playback, 0 is start of wave file)
+sampler vol *num* (volume 0 -1)  
+
+  
 **Note:** *loading custom samples*  
 When laoding a sample you do not include the filename extension.  
 * The .wav extension will automatically be added.  
-* E.g. *clap sample user/newclap* will load user/newclap.wav
-* All samples revert to mono, if a stereo sample is loaded, it will play the left channel.
-
+* E.g. *clap sample user/newclap* will load user/newclap.wav  
+* All samples revert to mono, if a stereo sample is loaded, it will play the left channel.  
+The sampler laods into an array, this can cause a slight pause when loading large samples.  
+Load large samples first. Small samples are good. Small is always good.  
+  
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please keep in mind the scope of the project is intended to be tiny.
