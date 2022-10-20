@@ -100,7 +100,7 @@ synth sample *filepath* (load a sample, omit the .wav extension)
 synth detune *num* (pitch of second oscilator, defaults at 0.99)  
   
   
-# Sampler
+## Sampler
 sampler sample *filepath* (load a sample, omit the .wav extension)  
 sampler play *num* (step of sequence to play)  
 sampler mod *num* (length of sequence)  
