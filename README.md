@@ -130,7 +130,7 @@ When loading a sample you do not include the filename extension.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please keep in mind the scope of the project is intended to be tiny.
   
-Thanks to whoever made teh base converter, if i can find out who you are i'll give you a shout out!
+Thanks to whoever made the base converter, if i can find out who you are i'll give you a shout out!
   
   
 ## License
