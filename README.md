@@ -104,8 +104,8 @@ synth detune *num* (pitch of second oscilator, defaults at 0.99)
 sampler sample *filepath* (load a sample, omit the .wav extension)  
 sampler play *num* (step of sequence to play)  
 sampler mod *num* (length of sequence)  
-sampler rev (toggle sample reverse - WIP)
-sampler start *0-100* (starting point of playback, 0 is start of wave file)
+sampler rev (toggle sample reverse - WIP)  
+sampler start *0-100* (starting point of playback, 0 is start of wave file)  
 sampler vol *num* (volume 0 -1)  
 
 ## Mix
