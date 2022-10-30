@@ -20,7 +20,7 @@ bpm *num* (change bpm)
 ### Kick Drum  
 kick play *num* (step of sequence to play)  
 kick mod *num* (length of sequence)  
-kick hp *num* (high pass filter in Hz)  
+kick dist *0-1* (amount of distortion to apply)
 kick vol *num* (volume 0 -1)  
 kick sample *filepath* (load a sample, omit the .wav extension)  
 
