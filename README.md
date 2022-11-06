@@ -88,6 +88,9 @@ synth riffmod *0-8* (length of riff pattern)
 
 synth pattern *0-255 0-255* (decimal number converted to 8 bit binary gate pattern)  
 synth patternmod *0-16* (length of pattern for gate pattern)
+
+synth delay *0-1* (delay volume on synth)
+synth feedback *0.1 - 0.9* (delay feedback)
   
 #### FM Synth
 synth fmratio *num* (FM harmonicity ratio)  
