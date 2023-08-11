@@ -119,6 +119,8 @@ mix verb *0-100* (reverb level)
 mix glitch vol *0-1* (glitch effect volume)  
 mix glitch trig (how often to re-trigger glitch loop length)  
 mix glitch rec (how often to record a glitch sample)  
+mix comb vol *0-1* (comb filter volume)
+mix comb tex *1-30* (comb folter texture)
 
   
 **Note:** *loading custom samples*  
